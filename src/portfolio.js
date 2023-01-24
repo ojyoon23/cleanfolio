@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://ojyoon23.github.io/cleanfolio',
+  title: 'Olivia Yoon',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Olivia Yoon',
+  role: 'Data Analyst',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'My name is Olivia Yoon. I am a Statistical Data Science student at UC Davis, graduating in March 2023. I am most passionate about helping others make smart decisions and my goal is to pursue this passion within the field of data analytics. In my free time, I like working going on a hike, and going to concerts.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/olivia-yoon',
+    github: 'https://github.com/ojyoon23',
   },
 }
 
@@ -21,51 +21,62 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Stock Prediction Web Application',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Helps users make investment decisions by forecasting stock prices for up to 4 years by automatically reading Yahoo finance data based on user input',
+    stack: ['Python', 'Streamlit', 'Prophet'],
+    sourceCode: 'https://github.com/ojyoon23/stock-pred-webapp',
+    livePreview: 'https://stock-pred-app-2.herokuapp.com/',
   },
   {
-    name: 'Project 2',
+    name: 'Social Media Engagement Analysis',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Explores social media data to improve user engagement and advertising strategy',
+    stack: ['Google BigQuery', 'Tableau'],
+    // sourceCode: 'https://github.com',
+    livePreview:
+      'https://public.tableau.com/app/profile/olivia.yoon/viz/SocialBuzz_16718503511100/Dashboard2?publish=yes',
   },
   {
-    name: 'Project 3',
+    name: 'Spotify Songs Prediction',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Provides Spotify a better understanding of trends and recommendations for their target audience by comprehending global user’s listening behavior, predicting popularity score of a song and classifying its genre based on its features',
+    stack: ['Python', 'PCA', 'Logistic Regression'],
+    sourceCode: 'https://github.com/ojyoon23/Spotify-Trendy-Songs-Prediction',
+    livePreview:
+      'https://drive.google.com/file/d/1jBT3OqSwdq01JE3WP_Im9ktbPuColIgQ/view?usp=share_link',
+  },
+  {
+    name: 'Loan Lender Matching Analysis',
+    description:
+      'Recommends certain groups of customers to specific lenders to increase approval rate and revenue by analyzing loan application data',
+    stack: ['Python', 'Plotly'],
+    // sourceCode: 'https://github.com/ojyoon23/Spotify-Trendy-Songs-Prediction',
+    livePreview:
+      'https://drive.google.com/file/d/18vgQQu8L3-Tb9ttNRNOj1XPbb3CAkpdC/view?usp=share_link',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Python',
+  'SQL',
+  'R/RStudio',
+  'Tableau',
+  'Google BigQuery',
+  'Google Cloud Platform',
+  'Git',
+  'Jira',
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ojyoon23@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
