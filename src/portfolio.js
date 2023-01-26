@@ -11,7 +11,7 @@ const about = {
   description:
     'My name is Olivia Yoon. I am a Statistcs student (emphasis on Data Science) at UC Davis, graduating in March 2023. I am most passionate about helping others make smart decisions and my goal is to pursue this passion within the field of data analytics. In my free time, I like listening to different types of music, going to concerts, and hiking.',
   resume:
-    'https://drive.google.com/file/d/19FLkIPTDl4tHfIVz4hSbMnzbDCB3oaOY/view?usp=share_link',
+    'https://drive.google.com/file/d/1CFxdNgN86Nbmo7FtszJwueAPDnJbO7Ik/view?usp=share_link',
   social: {
     linkedin: 'https://linkedin.com/in/olivia-yoon',
     github: 'https://github.com/ojyoon23',
@@ -54,7 +54,7 @@ const projects = [
     stack: ['Python', 'Plotly'],
     // sourceCode: 'https://github.com/ojyoon23/Spotify-Trendy-Songs-Prediction',
     livePreview:
-      'https://drive.google.com/file/d/18vgQQu8L3-Tb9ttNRNOj1XPbb3CAkpdC/view?usp=share_link',
+      'https://docs.google.com/document/d/18NhPDhtFdV1rhcs8MJoRCX4iv8h9qEjeu0grXZOwyZI/edit?usp=sharing',
   },
 ]
 
