@@ -25,9 +25,8 @@ const projects = [
     name: 'Stock Prediction Web Application',
     description:
       'Helps users make investment decisions by forecasting stock prices for up to 4 years by automatically reading Yahoo finance data based on user input',
-    stack: ['Python', 'Streamlit', 'Prophet'],
+    stack: ['Python', 'Streamlit', 'Prophet', 'LSTM'],
     sourceCode: 'https://github.com/ojyoon23/stock-pred-webapp',
-    livePreview: 'https://stock-pred-app-2.herokuapp.com/',
   },
   {
     name: 'Loan Lender Matching Analysis',
@@ -64,6 +63,13 @@ const projects = [
     sourceCode: 'https://github.com/ojyoon23/Spotify-Trendy-Songs-Prediction',
     livePreview:
       'https://drive.google.com/file/d/1jBT3OqSwdq01JE3WP_Im9ktbPuColIgQ/view?usp=share_link',
+  },
+  {
+    name: 'NewsStream (Web Dev Project)',
+    description:
+      'A responsive news website with the use of News API to fetch and display relevant news articles for users to search and read',
+    stack: ['HTML/CSS', 'JavaScript', 'Bootstrap'],
+    sourceCode: 'https://github.com/ojyoon23/nytimes',
   },
 ]
 
