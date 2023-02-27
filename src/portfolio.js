@@ -9,7 +9,7 @@ const about = {
   name: 'Olivia Yoon',
   role: 'Data Analyst',
   description:
-    'My name is Olivia Yoon. I am a Statistcs student (emphasis on Data Science) at UC Davis, graduating in March 2023. I am most passionate about helping others make smart decisions and my goal is to pursue this passion within the field of data analytics. In my free time, I like listening to different types of music, going to concerts, and hiking.',
+    'My name is Olivia Yoon. I am a Statistcs student (emphasis in Data Science) at UC Davis, graduating in March 2023. I am most passionate about helping others make smart decisions and my goal is to pursue this passion within the field of data analytics. In my free time, I like listening to different types of music, going to concerts, and hiking.',
   resume:
     'https://drive.google.com/file/d/1DenHLrzGS1O-HgbRUYde8WKt8lYLe-nu/view?usp=share_link',
   social: {
@@ -67,7 +67,7 @@ const projects = [
   {
     name: 'NewsStream (Web Dev Project)',
     description:
-      'A responsive news website with the use of News API to fetch and display relevant news articles for users to search and read',
+      'A responsive news website with the use of News API to fetch and display real-time relevant news articles for users to search and read',
     stack: ['HTML/CSS', 'JavaScript', 'Bootstrap'],
     sourceCode: 'https://github.com/ojyoon23/nytimes',
   },
