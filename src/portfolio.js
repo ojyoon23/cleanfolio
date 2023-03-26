@@ -10,8 +10,7 @@ const about = {
   role: 'Data Analyst',
   description:
     'My name is Olivia Yoon. I am a Statistcs student (emphasis in Data Science) at UC Davis, graduating in March 2023. I am most passionate about helping others make smart decisions and my goal is to pursue this passion within the field of data analytics. In my free time, I like listening to different types of music, going to concerts, and hiking.',
-  resume:
-    'https://drive.google.com/file/d/1oYsOWXmlY2JCEKQC_tfJYRSIHDfRwbkH/view?usp=share_link',
+  resume: '',
   social: {
     linkedin: 'https://linkedin.com/in/olivia-yoon',
     github: 'https://github.com/ojyoon23',
